@@ -1,0 +1,11 @@
+kris:
+  name: Kris
+  title: Someone
+  url: https://github.com/kcnotes
+  image_url: https://github.com/kcnotes.png
+
+kevin:
+  name: Kevin
+  title: Another person
+  url: https://github.com/kevinydzhu
+  image_url: https://github.com/kevinydzhu.png
