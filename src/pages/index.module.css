@@ -4,10 +4,13 @@
  */
 
 .heroBanner {
-  padding-top: 240px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
   position: relative;
   overflow: hidden;
-  height: 60vh;
+  height: 80vh;
   color: #FFF;
 }
 
@@ -15,10 +18,10 @@
   background: linear-gradient(45deg, rgba(144, 205, 13, 0.8), rgba(68, 165, 255, 0.8));
   content: ' ';
   display: block;
-  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  height: 100%;
   width: 100%;
   z-index: -1;
 }
@@ -28,7 +31,9 @@
   top: 0;
   left: 0;
   width: 100%;
+  height: 100%;
   z-index: -2;
+  object-fit: cover;
 }
 
 .logoInline {
@@ -42,4 +47,17 @@
   width: auto;
   font-size: 64px;
   margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .heroBanner {
+    text-align: center;
+  }
+  .logoInline {
+    width: 100%;
+    display: inline-block;
+  }
+  .heroBannerTitle {
+    font-size: 32px;
+  }
 }

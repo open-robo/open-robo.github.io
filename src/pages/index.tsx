@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 import styles from './index.module.css';
+import { Signup } from '../components/signup';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -26,6 +27,7 @@ export default function Home(): JSX.Element {
   return (
     <main>
       <HomepageHeader />
+      <Signup />
     </main>
   );
 }
