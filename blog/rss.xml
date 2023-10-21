@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>OpenRobo Blog</title>
+        <link>https://openrobo.org.au/blog</link>
+        <description>OpenRobo Blog</description>
+        <lastBuildDate>Sat, 21 Oct 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Hello]]></title>
+            <link>https://openrobo.org.au/blog/hello</link>
+            <guid>https://openrobo.org.au/blog/hello</guid>
+            <pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello from OpenRobo!]]></description>
+            <content:encoded><![CDATA[<p>Hello from OpenRobo!</p><p>We're still working on things, stay tuned.</p>]]></content:encoded>
+            <category>hello</category>
+        </item>
+    </channel>
+</rss>

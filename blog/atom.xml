@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://openrobo.org.au/blog</id>
+    <title>OpenRobo Blog</title>
+    <updated>2023-10-21T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://openrobo.org.au/blog"/>
+    <subtitle>OpenRobo Blog</subtitle>
+    <icon>https://openrobo.org.au/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Hello]]></title>
+        <id>https://openrobo.org.au/blog/hello</id>
+        <link href="https://openrobo.org.au/blog/hello"/>
+        <updated>2023-10-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hello from OpenRobo!]]></summary>
+        <content type="html"><![CDATA[<p>Hello from OpenRobo!</p><p>We're still working on things, stay tuned.</p>]]></content>
+        <author>
+            <name>Kris</name>
+            <uri>https://github.com/kcnotes</uri>
+        </author>
+        <category label="hello" term="hello"/>
+    </entry>
+</feed>
